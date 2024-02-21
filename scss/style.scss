@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+.green-color{
+    color: #10B981;
+}
+.green-bg{
+    background: #10B981;
+}
+:root{
+    --bs-green:#10B981;
+    --bs-gray:#D1D5DB;
+    --bs-light-gray:#9CA3AF;
+}
+// header
+header{
+    width:100%;
+    min-height: 15vh;
+    background: #141414;    
+    nav{
+        .logo span{
+            color: var(--bs-green);
+        }
+        h6{
+            color: var(--bs-gray);
+        }
+        .drop button{
+            color: var(--bs-gray);
+            ul li a{
+                color: var(--bs-gray);
+            }
+        }
+        .nav-tools li a{
+            font-weight: 600;
+            font-size: 0.9em;
+            color: var(--bs-gray);
+        }
+        .right-nav a{
+            font-size: 13px;
+            border: 1px solid rgba(128, 128, 128, 0.326);
+            transition:  all ease 0.2s;
+        }
+        .right-nav a:hover{
+            border:1px solid gray;
+        }
+        .sign a:nth-child(1):hover{
+            background: rgba(128, 128, 128, 0.253);
+        }
+        .sign a:nth-child(2){
+            background: var(--bs-green);
+        }
+        .sign a:nth-child(2):hover{
+            background: #10b981d0;
+        }
+    }
+}
+// main
+.main{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #141414;
+    .page1{
+        position: relative;
+        h1{
+            line-height: 4.4rem;
+            font-size: 5.7vw;
+            font-weight: 800;
+        }
+        p{
+            font-weight: 200;
+            font-size: 1.1rem;
+            color: var(--bs-light-gray);
+        }
+        .text-p{
+            font-size: 0.8rem;
+        }
+    }
+}
