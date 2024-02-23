@@ -121,8 +121,12 @@ header nav .sign a:nth-child(2):hover {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+.main .page4 .packages .yearly:hover {
+  background: var(--bs-bg-dark);
+}
 .main .page4 .main-cards .card-1 {
   width: 24rem;
+  height: 28rem;
   background: var(--bs-bg-dark);
 }
 .main .page4 .main-cards .card-1 .basic span {
@@ -153,6 +157,32 @@ header nav .sign a:nth-child(2):hover {
 }
 .main .page4 .main-cards .card-2 {
   width: 24rem;
+}
+.main .page4 .main-cards .card-2 .basic span {
+  font-size: 0.5rem;
+  font-weight: 600;
+  background: #110d0d;
+  border-radius: 10px;
+  padding: 6px;
+}
+.main .page4 .main-cards .card-2 .basic p {
+  color: #fff;
+}
+.main .page4 .main-cards .card-2 .sub h1 {
+  font-weight: bold;
+  color: #fff;
+}
+.main .page4 .main-cards .card-2 .sub h1 sub {
+  color: #fff;
+  font-size: 0.9rem;
+}
+.main .page4 .main-cards .card-2 .sv div {
+  padding: 10px 0;
+  color: #fff;
+  font-weight: 700;
+}
+.main .page4 .main-cards .card-2 .btn-2 {
+  background: #fff;
 }
 .main .page4 .main-cards .card {
   border-radius: 10px;

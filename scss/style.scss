@@ -115,10 +115,14 @@ header{
                 border-top-right-radius:10px;
                 border-bottom-right-radius:10px;
             }
+            .yearly:hover{
+                background: var(--bs-bg-dark);
+            }
         }
         .main-cards{
             .card-1{
                 width: 24rem;
+                height: 28rem;
                 background: var(--bs-bg-dark);
                 .basic{
                     span{
@@ -155,6 +159,38 @@ header{
             }
             .card-2{
                 width: 24rem;
+                .basic{
+                    span{
+                        font-size: 0.5rem;
+                        font-weight: 600;
+                        background: #110d0d;
+                        border-radius: 10px;
+                        padding: 6px;
+                    }
+                    p{
+                        color: #fff;;
+                    }
+                }
+                .sub{
+                    h1{
+                        font-weight: bold;
+                        color: #fff;
+                        sub{
+                            color: #fff;
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+                .sv{
+                    div{
+                        padding: 10px 0;
+                        color: #fff;
+                        font-weight: 700;
+                    }
+                }
+                .btn-2{
+                    background: #fff;
+                }
             }
             .card{
                 border-radius: 10px;
