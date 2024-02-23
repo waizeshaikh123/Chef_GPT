@@ -8,6 +8,10 @@ html,body{
     width: 100%;
     height: 100%;
 }
+.borders-bg{
+    border-radius: 10px;
+    background: #13251F;
+}
 a{
     text-decoration: none;
 }
@@ -17,10 +21,19 @@ a{
 .green-bg{
     background: #10B981;
 }
+.green-bg-light{
+    background: #064E3B;
+}
+.light-green{
+    border-radius: 10px;
+    background: #131D1A;
+}
 :root{
     --bs-green:#10B981;
     --bs-gray:#D1D5DB;
     --bs-light-gray:#9CA3AF;
+    --bs-gray-black:#363636;
+    --bs-bg-dark:#1A1A1A;
 }
 // header
 header{
@@ -84,6 +97,71 @@ header{
         }
         .text-p{
             font-size: 0.8rem;
+        }
+    }
+// page4
+    .page4{
+        position: relative;
+        .packages{
+            .monthly{
+            cursor: pointer;
+                background: var(--bs-green);
+                border-top-left-radius:10px;
+                border-bottom-left-radius:10px;
+            }
+            .yearly{
+            cursor: pointer;
+                background: var(--bs-gray-black);
+                border-top-right-radius:10px;
+                border-bottom-right-radius:10px;
+            }
+        }
+        .main-cards{
+            .card-1{
+                width: 24rem;
+                background: var(--bs-bg-dark);
+                .basic{
+                    span{
+                        font-size: 0.5rem;
+                        font-weight: 600;
+                        background: #110d0d;
+                        border-radius: 10px;
+                        padding: 6px;
+                    }
+                    p{
+                        color: var(--bs-light-gray);
+                    }
+                }
+                .sub{
+                    h1{
+                        font-weight: bold;
+                        color: var(--bs-light-gray);
+                        sub{
+                            color: #716464;
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+                .sv{
+                    div{
+                        padding: 10px 0;
+                        color: var(--bs-light-gray);
+                        font-weight: 700;
+                    }
+                }
+                .btn{
+                    background: var(--bs-gray-black);
+                }
+            }
+            .card-2{
+                width: 24rem;
+            }
+            .card{
+                border-radius: 10px;
+                svg{
+                    width: 20px;
+                }
+            }
         }
     }
 }
