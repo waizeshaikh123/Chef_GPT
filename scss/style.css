@@ -42,6 +42,7 @@ a {
   --bs-light-gray:#9CA3AF;
   --bs-gray-black:#363636;
   --bs-bg-dark:#1A1A1A;
+  --bs-light-green:#131D1A;
 }
 
 header {
@@ -189,4 +190,30 @@ header nav .sign a:nth-child(2):hover {
 }
 .main .page4 .main-cards .card svg {
   width: 20px;
+}
+
+.page5 {
+  position: relative;
+}
+.page5 .feature-main {
+  position: relative;
+}
+.page5 .feature-main .feature-plan {
+  width: 20rem;
+  height: 6rem;
+  border-radius: 15px;
+  background: var(--bs-light-green);
+}
+
+.page6 {
+  position: relative;
+}
+.page6 .main-kitchen {
+  background: var(--bs-light-green);
+  margin: 0 50px;
+  border-radius: 13px;
+}
+
+footer {
+  background: #141414;
 }/*# sourceMappingURL=style.css.map */

@@ -34,6 +34,7 @@ a{
     --bs-light-gray:#9CA3AF;
     --bs-gray-black:#363636;
     --bs-bg-dark:#1A1A1A;
+    --bs-light-green:#131D1A;
 }
 // header
 header{
@@ -200,4 +201,31 @@ header{
             }
         }
     }
+}
+// page5
+.page5{
+    position: relative;
+    .feature-main{
+        position: relative;
+        .feature-plan{
+            width: 20rem;
+            height: 6rem;
+            border-radius: 15px;
+            background: var(--bs-light-green);
+        }
+    }
+}
+// page6
+.page6{
+    position: relative;
+    .main-kitchen{
+        // margin-top: 30px;
+        background: var(--bs-light-green);
+        margin: 0 50px;
+        border-radius: 13px;
+    }
+}
+// footer
+footer{
+    background: #141414;
 }
