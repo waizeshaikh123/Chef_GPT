@@ -1,3 +1,33 @@
+.blog .main-img {
+  height: 75vh;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.blog a img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.blog .main-text p {
+  color: var(--bs-light-gray);
+  font-size: 0.9em;
+}
+.blog .main-text a {
+  text-decoration: none;
+}
+.blog .main-text a:hover {
+  text-decoration: underline;
+}
+
+.page1 {
+  position: relative;
+}
+.page1 .video-in-img img {
+  background: url(/images/bg_img/creators_hero.mov);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +43,10 @@ html, body {
 .borders-bg {
   border-radius: 10px;
   background: #13251F;
+}
+
+.gray-lighter {
+  color: #9CA3AF;
 }
 
 a {
@@ -216,4 +250,29 @@ header nav .sign a:nth-child(2):hover {
 
 footer {
   background: #141414;
+  padding-top: 4vw;
+}
+footer .footer-p P {
+  color: var(--bs-light-gray);
+  font-size: 0.8rem;
+}
+footer .list-sec h4 {
+  font-size: medium;
+  font-weight: bold;
+}
+footer .list-sec ul li a {
+  color: var(--bs-light-gray);
+}
+
+.main-sign {
+  position: relative;
+  background: #141414;
+  width: 100%;
+  height: 100vh;
+}
+.main-sign .sing_in {
+  width: 30vw;
+  border-radius: 15px;
+  min-height: 80vh;
+  box-shadow: 0px 0px 10px #131D1A, 0px 0px 10px #13251F;
 }/*# sourceMappingURL=style.css.map */
