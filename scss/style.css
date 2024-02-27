@@ -268,11 +268,51 @@ footer .list-sec ul li a {
   position: relative;
   background: #141414;
   width: 100%;
-  height: 100vh;
+  height: 110vh;
 }
 .main-sign .sing_in {
   width: 30vw;
   border-radius: 15px;
   min-height: 80vh;
-  box-shadow: 0px 0px 10px #131D1A, 0px 0px 10px #13251F;
+  box-shadow: 0px 0px 250px #1f332d, 0px 0px 250px #13251F;
+}
+.main-sign .sing_in .google-btn {
+  background: #222222;
+  width: 90%;
+  height: 45px;
+}
+.main-sign .sing_in .google-btn p {
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding-left: 32px;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+.main-sign .sing_in .goo-p {
+  font-size: 0.8rem;
+}
+.main-sign .sing_in form {
+  padding: 0 20px;
+}
+.main-sign .sing_in form input {
+  background: #222222;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #3f3838;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+.main-sign .sing_in form p {
+  font-size: 0.8rem;
+}
+.main-sign .sing_in form .a {
+  font-size: 0.8rem;
+}
+
+.main-sign-2 {
+  height: 120vh;
+}
+
+.sign_up {
+  height: 112vh;
 }/*# sourceMappingURL=style.css.map */
