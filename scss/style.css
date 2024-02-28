@@ -28,6 +28,25 @@
   background: url(/images/bg_img/creators_hero.mov);
 }
 
+.tost-ted {
+  position: relative;
+}
+.tost-ted .main-span {
+  color: var(--bs-gray);
+  border: 1px solid var(--bs-green);
+  border-radius: 9px;
+}
+.tost-ted .main-span .cross-span {
+  cursor: pointer;
+}
+.tost-ted .add-ingre {
+  display: none;
+}
+
+.main-ingre-2 .add-ingre-2 {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
