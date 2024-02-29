@@ -47,6 +47,47 @@
   display: none;
 }
 
+.scroller-bar .main-scroll .scroller {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  background: var(--bs-light-gray);
+  cursor: pointer;
+}
+.scroller-bar .main-scroll .child-scroller {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+}
+
+.gourmet {
+  border: 1px solid #342b2b;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.gourmet h5 {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.gourmet p {
+  color: var(--bs-gray);
+  font-size: 0.9rem;
+}
+
+.all-in-one {
+  border: 1px solid #342b2b;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.all-in-one h5 {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.all-in-one p {
+  color: var(--bs-gray);
+  font-size: 0.9rem;
+}
+
 * {
   margin: 0;
   padding: 0;

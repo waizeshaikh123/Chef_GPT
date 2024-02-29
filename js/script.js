@@ -55,3 +55,51 @@ $(function(){
         }
     });
 });
+
+$(function(){
+    b = 1
+    $(".scroller").on({
+        click : function(){
+            if(b == 1){
+                $(".scroller").css({
+                    background:"#10B981"
+                })
+                $(".child-scroller").css({
+                    position: "absolute",
+                    left:"54%",
+                    transition:"0.4s"
+                })
+                b = 0
+            }
+            else{
+                $(".scroller").css({
+                    background:""
+                })
+                $(".child-scroller").css({
+                    position: "absolute",
+                    left:"7%",
+                })
+                b = 1
+            }
+        },
+    });
+});
+
+$(function(){
+    $(".gourmet").click(function(){
+        $(".gourmet").css({
+            background:"#10b981",
+        })
+        $(".all-in-one").css({
+            background:"",
+        })
+    });
+    $(".all-in-one").click(function(){
+        $(".all-in-one").css({
+            background:"#10b981",
+        })
+        $(".gourmet").css({
+            background:"",
+        })
+    });
+});
